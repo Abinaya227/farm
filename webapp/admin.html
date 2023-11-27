@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>login</title>
+</head>
+<style>
+body{
+ 
+            background-image:url("v2.jpg");
+            background-repeat:no-repeat;
+            background-size: 1536px 750px;
+            padding : 10px;
+   }
+ 
+   form{
+   box-shadow:5px 5px 10px #00FF00;
+border-radius:12px 12px;
+width:400px;
+height:400px;
+background-color: #90EE90;
+margin-top :90px; 
+
+font-size :30px;
+color : green;
+
+
+}
+  input{
+background-color:#FFFFF0;
+box-shadow:5px;
+border:2px solid white;
+border-radius:5px 5px;
+margin : 2px;
+text-align :center;
+
+}
+button{
+background-color:#027148;
+border-radius :4px;
+color:white;
+width :60px;
+height : 30px;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("c.jpg");
+
+  /* Control the height of the image */
+  min-height: 400px;
+ margin-left : 200px;
+  /* Center and scale the image nicely */
+  background-position: left;
+  background-repeat: no-repeat;
+  
+  border-radius: 10px 10px;
+  
+  
+}</style>
+<body>
+<center>
+ <div class="bg-img">
+ 
+<form action="retrieve.jsp" method="post">
+<h1>Admin</h1>
+<table>
+
+<tr>
+<td><label for="name">Username</label></td>
+ <td><input type="text" name="usr" required/></td></tr>
+ <tr>
+ <td><label for="pass">password</label></td>
+ <td><input type="password" name="password" required/></td></tr>
+<tr><td>
+<button type="submit" value="Submit">Submit</button></td></tr>
+</table>
+
+</form></center>
+</body>
+
+
+</html>
+    

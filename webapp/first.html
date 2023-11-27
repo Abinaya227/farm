@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+
+body{
+ 
+            background-image:url("v2.jpg");
+            background-repeat:no-repeat;
+            background-size: 1536px 750px;
+   }
+   form{
+   box-shadow:5px 5px 10px #00FF00;
+border-radius:12px 12px;
+width:450px;
+height:400px;
+background-color: #90EE90;
+
+margin-top : 90px;
+font-size :15px;
+color : green;
+
+
+}
+  input{
+background-color:#FFFFF0;
+box-shadow:5px;
+border:2px solid white;
+border-radius:5px 5px;
+margin : 10px;
+text-align :center;
+
+}
+button{
+background-color:#027148;
+border-radius :4px;
+color:white;
+width :60px;
+height : 30px;
+}
+.bg-img {
+  background-image: url("c.jpg");
+
+  /* Control the height of the image */
+  min-height: 400px;
+ margin-left : 200px;
+  /* Center and scale the image nicely */
+  background-position: left;
+  background-repeat: no-repeat;
+  
+  border-radius: 10px 10px;
+  
+  
+  
+  
+}
+   
+   </style>
+<body><center>
+<div class="bg-img">
+<form action="process1.jsp" method="post">
+<h3>Farmer Details</h3>
+<table>
+<tr><td>
+<label for="name">First Name</label></td>
+<td><input type="text" name="first_name" required/></td></tr>
+<tr><td>
+<label for="name">Last Name</label></td>
+<td><input type="text" name="last_name" required/></td>
+</tr>
+<tr>
+<td>
+<label for="city">City Name</label></td>
+<td><input type="text" name="city_name" required/></td></tr>
+<tr>
+<td><label for="email">Email Id</label></td>
+<td><input type="email" name="email" required/></td>
+</tr>
+<tr>
+<td><label for="tel">Phone Number</label></td>
+<td><input type="tel" name="phone" required/></td>
+</tr>
+<tr>
+<td><label for="name">Product Name</label></td>
+<td><input type="text" name="pname" required/></td>
+</tr>
+
+<tr>
+<td>
+<button type="submit" value="Submit">Submit</button></td></tr>
+<td>
+<a href="home.html"><button type="cancel" value="Submit">cancel</a></button></td></tr>
+</table></center>
+</form>
+</body>
+</html>

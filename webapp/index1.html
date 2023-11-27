@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>login</title>
+</head>
+<style>
+body{
+ 
+            background-image:url("v2.jpg");
+            background-repeat:no-repeat;
+            background-size: 1536px 750px;
+   }
+   #myVideo {
+  right: 0;
+  bottom: 0;
+  margin-top:-450px;
+ 
+ width:100%;
+   transform: translate(-5px, 5px);
+
+  min-width: 50%;
+  min-height: 70%;
+ 
+}
+   form{
+   box-shadow:5px 5px 10px #00FF00;
+border-radius:12px 12px;
+width:400px;
+height:250px;
+background-color: #90EE90;
+margin-top :20px; 
+font-size :20px;
+color : green;
+
+
+}
+  input{
+background-color:#FFFFF0;
+box-shadow:5px;
+border:2px solid white;
+border-radius:5px 5px;
+margin : 2px;
+text-align :center;
+
+}
+button{
+background-color:#027148;
+border-radius :4px;
+color:white;
+width :60px;
+height : 30px;
+}</style>
+<body>
+<video autoplay muted loop id="myVideo">
+<source src="v8.mp4" type="video/mp4">  
+</video><center>
+<form action="login.jsp" method="post">
+<h1>Login Form</h1>
+<table>
+<tr>
+<td><label for="name">Email</label></td>
+ <td><input type="text" name="email" required/></td></tr>
+ <tr>
+ <td><label for="pass">password</label></td>
+ <td><input type="password" name="password" required/></td></tr>
+<tr><td>
+<button type="submit" value="Submit" onclick="check()"/>Submit</button></td></tr>
+</table>
+
+
+<p>New user. <a href="login.html">Register Here</a>.
+</form></center>
+<script>
+function check(){
+	window.location.href="index.html";
+}
+</script>
+</body>
+
+
+</html>
+    
